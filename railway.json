@@ -1,0 +1,9 @@
+{
+  "builder": "nixpacks",
+  "buildCommand": "pnpm install && pnpm build",
+  "startCommand": "pnpm start",
+  "variables": {
+    "NODE_ENV": "production",
+    "PORT": "3000"
+  }
+}
